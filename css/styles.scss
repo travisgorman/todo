@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-  width: 50%;
+  width: 40%;
   margin: 0 auto;
   background: #555;
   display: flex;
@@ -22,13 +22,17 @@ body {
 
   .icon i {
     flex-basis: 10%;
+    width: 28px;
     color: #333;
-    padding: 6px;
+    padding: 9px;
+    margin: 0 auto;
   }
   .complete i {
     flex-basis: 10%;
+    width: 28px;
     color: #333;
-    padding: 6px;
+    padding: 9px;
+    margin: 0 auto;
   }
   .todo {
     flex-basis: 80%;
