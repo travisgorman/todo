@@ -10,18 +10,26 @@
   
    <div class="container">
 
-      <div class="entry">
-        <div class="icon">
-          <i class="fa fa-ellipsis-h bullet"></i>
-        </div> 
-        <div class="todo">
-        Make a 3 container for 3 column rows
-        </div>
-        <div class="complete"> 
-          <i class="fa fa-close button"></i>
-        </div>
-      </div>
-     <div class="entry">
+  <section class="user-input">
+        <i class="fa fa-pencil bullet"></i>
+        <input id="do" type="text" placeholder="Do This Thing"> </span> 
+        <i class="fa fa-circle button"></i>
+      </section>
+
+     
+      <section>
+        <i class="fa fa-ellipsis-h bullet"></i>
+        <span class="todo"> Make a 3 container for 3 column rows </span> 
+        <i class="fa fa-close button"></i>
+      </section>
+      <section>
+        <i class="fa fa-ellipsis-h bullet"></i>
+        <span class="todo"> Make a 3 container for 3 column rows </span> 
+        <i class="fa fa-close button"></i>
+      </section>
+    <!-- render entry items here. append them to `.container` -->
+
+    <!--  <div class="entry">
         <div class="icon">
           <i class="fa fa-ellipsis-h bullet"></i>
         </div> 
@@ -42,23 +50,15 @@
         <div class="complete"> 
           <i class="fa fa-close button"></i>
         </div>
-      </div>
+      </div> -->
   
    </div>
     
 
-  <div class="container">
-    <div class="entry">
-          <div class="icon">
-            <i class="fa fa-pencil bullet"></i>
-          </div> 
-           <input class="user-input "type="text">
-        
-      </div>
+ 
 
 
-    
-  </div>   
+
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

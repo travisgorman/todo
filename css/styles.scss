@@ -1,51 +1,87 @@
 body {
   padding-top: 8em;
 }
-
 .container {
   width: 40%;
   margin: 0 auto;
-  background: #555;
-  display: flex;
-  flex-direction: column;
-}
-.entry {
-  width: 100%;
-  height: 40px;
-  background: palevioletred;
-  border-width: 2px 2px 0 2px;
-  border-color: darkslategray;
-  border-style: solid;
-  display: flex;
-  flex-direction: row;
-  font-size: 28px;
+    section {
+      background: palevioletred;
+      text-align: center;
+      font-size: 18px;
+      color: #eee;
+      padding: .5em;
+      border-bottom: .25em solid #444;
+    }
+    section.user-input {
+      margin-bottom: 40px;
+      background: #fff;
+      font-size: 24px;
+      input {
+        color: #444;
+        width: 80%;
+      }
+      i {
+        color: #444;
+      }
+  }
+    span {
+      color: #444;
+    }
+    i {
+      font-size: 24px;
+    }
+    .bullet {
+      float: left;
+      padding-left: .25em;
+    }
+    .button {
+      float: right;
+      padding-right: .25em;
+    }
 
-  .icon i {
-    flex-basis: 10%;
-    width: 28px;
-    color: #333;
-    padding: 9px;
-    margin: 0 auto;
-  }
-  .complete i {
-    flex-basis: 10%;
-    width: 28px;
-    color: #333;
-    padding: 9px;
-    margin: 0 auto;
-  }
-  .todo {
-    flex-basis: 80%;
-    font-size: 18px;
-    color: #eee;
-    line-height: 2.5;
-    overflow: hidden;
-    padding-left: 1rem
-  }
-}
-  .entry:last-of-type {
-    border-bottom-width: 2px;
-  }
-.user-input{
-  
+
+// .entry {
+//   width: 100%;
+//   height: 40px;
+//   background: palevioletred;
+//   border-width: 2px 2px 0 2px;
+//   border-color: darkslategray;
+//   border-style: solid;
+//   display: flex;
+//   flex-direction: row;
+//   font-size: 28px;
+
+//   .icon i {
+//     flex-basis: 10%;
+//     width: 28px;
+//     color: #333;
+//     padding: 9px;
+//     margin: 0 auto;
+//   }
+//   .complete i {
+//     flex-basis: 10%;
+//     width: 28px;
+//     color: #333;
+//     padding: 9px;
+//     margin: 0 auto;
+//   }
+//   .todo {
+//     flex-basis: 80%;
+//     font-size: 18px;
+//     color: #eee;
+//     line-height: 2.5;
+//     overflow: hidden;
+//     padding-left: 1rem
+//   }
+// }
+//   .entry:last-of-type {
+//     border-bottom-width: 2px;
+//   }
+// .user-input{
+//     width: 90%;
+// }
+// .write{
+//   width: 60px;
+//   height: 28px;
+// }
 }
