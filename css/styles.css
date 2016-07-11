@@ -27,8 +27,9 @@ body {
   .container .bullet {
     float: left;
     padding-left: .25em; }
-  .container .button {
+  .container .close {
     float: right;
-    padding-right: .25em; }
+    padding-right: .25em;
+    cursor: pointer; }
 
 /*# sourceMappingURL=styles.css.map */
